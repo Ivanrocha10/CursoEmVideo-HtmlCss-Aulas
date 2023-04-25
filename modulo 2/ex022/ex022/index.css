@@ -1,0 +1,14 @@
+h1 {
+  background-color: lightgrey;
+  height: 300px;
+  width: 300px;
+  border: 10px solid darkslategray;
+
+  padding: 10px 10px 10px 10px;
+}
+
+a {
+  border: 10px solid red;
+
+  padding: 10px 10px 10px 10px;
+}

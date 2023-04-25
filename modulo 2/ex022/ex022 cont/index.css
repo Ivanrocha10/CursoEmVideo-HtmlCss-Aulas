@@ -1,0 +1,29 @@
+h1 { /* box-level */
+  background-color: lightgrey;
+  height: 300px;
+  width: 300px;
+  border: 10px solid darkslategray;
+
+  padding: 10px 10px 10px 10px;
+  /* 
+  podemos usar somente um valor quando ele se repetir, o sistema vai entender que é para todos os lados
+  ex: padding: 10px;
+  podemos usar somente dois valores tambem, o sistema vai entender que um é cima e baixo, e o outro direita e esquerda
+  ex: padding: 10px 20px;
+  */
+  margin: 20px auto 40px auto;
+  /*
+  podemos usar "auto" na margin, podendo centralizar o elemento
+  ex: margin: 20px auto 40px auto;
+  */
+
+  outline: 5px dashed salmon;
+
+  /* margin: auto;  Para deixar o elemento (caixa)*/
+}
+
+a { /* inline-level */
+  border: 10px solid red;
+
+  padding: 10px 10px 10px 10px;
+}
